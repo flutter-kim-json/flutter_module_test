@@ -1,3 +1,0 @@
-install:
-  - FILE="-Dfile=flutter_profile-1.0.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.example.maven_push -DartifactId=flutter_debug -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml

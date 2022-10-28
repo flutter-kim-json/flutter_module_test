@@ -1,30 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" 
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  
   <groupId>com.example.maven_push</groupId>
-  <artifactId>example-root</artifactId>
+  <artifactId>flutter_release</artifactId>
   <version>1.0</version>
-  <packaging>pom</packaging>
-  <name>root</name>
-  
-  <modules>
-    <module>flutter_debug</module>
-    <module>flutter_profile</module>
-    <module>flutter_release</module>
-  </modules>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.2</version>
-        <configuration> <!-- Compile java 7 compatible bytecode -->
-          <source>1.7</source>
-          <target>1.7</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+  <dependencies>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>flutter_embedding_debug</artifactId>
+      <version>1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>armeabi_v7a_debug</artifactId>
+      <version>1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>arm64_v8a_debug</artifactId>
+      <version>1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>x86_64_debug</artifactId>
+      <version>1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>x86_debug</artifactId>
+      <version>1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
 </project>
