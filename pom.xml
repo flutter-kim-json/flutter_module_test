@@ -9,7 +9,8 @@
   <name>root</name>
   
   <modules>
-    <module>module1</module>
-    <module>module2</module>
+    <module>flutter_debug</module>
+    <module>flutter_profile</module>
+    <module>flutter_release</module>
   </modules>
 </project>
