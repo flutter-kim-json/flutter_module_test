@@ -9,31 +9,25 @@
   <dependencies>
     <dependency>
       <groupId>io.flutter</groupId>
-      <artifactId>flutter_embedding_debug</artifactId>
+      <artifactId>flutter_embedding_release</artifactId>
       <version>1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
-      <artifactId>armeabi_v7a_debug</artifactId>
+      <artifactId>armeabi_v7a_release</artifactId>
       <version>1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
-      <artifactId>arm64_v8a_debug</artifactId>
+      <artifactId>arm64_v8a_release</artifactId>
       <version>1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
-      <artifactId>x86_64_debug</artifactId>
-      <version>1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.flutter</groupId>
-      <artifactId>x86_debug</artifactId>
+      <artifactId>x86_64_release</artifactId>
       <version>1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f</version>
       <scope>compile</scope>
     </dependency>
